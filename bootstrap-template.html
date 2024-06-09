@@ -19,7 +19,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
     <a class="navbar-brand ms-3" href="#">
-      <img src="sb.png" alt="Logo" width="33" height="28" class="d-inline-block align-text-top me-2">
+      <img src="sb.png" alt="Logo" width="34" height="28" class="d-inline-block align-text-top me-2 rounded">
     </a>
         <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -109,8 +109,8 @@
             <img src="" class="card-img-top" alt="Random Image" id="randomImage">
             <div class="card-body">
               <h5 class="card-title">Progetti</h5>
-              <p class="card-text">Alcune immagini dei miei progetti per start2impact University</p>
-              <button type="button" class="btn btn-primary" id="cardButton" data-toggle="modal" data-target="#documentModal">Go to Site</button>
+              <p class="card-text">Qui puoi vedere i miei progetti per start2impact University</p>
+              <button type="button" class="btn btn-primary" id="cardButton" data-toggle="modal" data-target="#documentModal">Visualizza</button>
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@
             <div class="card-body">
               <h5 class="card-title">Curriculum</h5>
               <p class="card-text">Visita il mio curriculum</p>
-              <a href="pdf/CV_sito.pdf" class="btn btn-primary" id="cardButton2">Go to Site</a>
+              <a href="pdf/CV_sito.pdf" class="btn btn-primary" id="cardButton2">Visualizza</a>
             </div>
           </div>
         </div>
@@ -140,10 +140,8 @@
         </div>
         <div class="modal-body">
           <ul class="list-group">
-            <li class="list-group-item"><a href="documento1.pdf" target="_blank">Documento 1</a></li>
-            <li class="list-group-item"><a href="documento2.pdf" target="_blank">Documento 2</a></li>
-            <li class="list-group-item"><a href="documento3.pdf" target="_blank">Documento 3</a></li>
-            <!-- Aggiungi più link per altri documenti qui -->
+            <li class="list-group-item"><a href="pdf/progetto_blockchain.pdf" target="_blank">Progetto Blockchain</a></li>
+            <li class="list-group-item"><a href="pdf/progetto_ethereum.pdf" target="_blank">Progetto Ethereum</a></li>
           </ul>
         </div>
       </div>
@@ -184,42 +182,44 @@
   </script>
 
   <div class="container-sm border my-5">
-    <div class="row">
-      <p>SKILL</p>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="images/skills/html_logo.png" alt="Logo" width="55" height="55" >
+    <div style="width: 30%">
+      <div class="row">
+        <p>SKILL</p>
       </div>
-      <div class="col-sm-6">
-        <img src="images/skills/css_logo.png" alt="Logo" width="56" height="56" >
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="images/skills/html_logo.png" alt="Logo" width="55" height="55" >
+        </div>
+        <div class="col-sm-6">
+          <img src="images/skills/css_logo.png" alt="Logo" width="56" height="56" >
+        </div> 
       </div>
     </div>
   </div>
 
   <div class="container mt-5">
-      <!-- Modulo di contatto -->
-      <div class="card" style="width: 100%;">
-          <div class="card-body">
-              <h5 class="card-title">Contact Me</h5>
-              <form id="contactForm">
-                  <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="email">Email address</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="message">Message</label>
-                      <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message" required></textarea>
-                  </div>
-                  <div class="g-recaptcha" data-sitekey="6LdaY_ApAAAAAI6HbfeEyDZOExfDFiG4U7S9GE43"></div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+    <!-- Modulo di contatto -->
+    <div class="card" style="width: 100%;">
+      <div class="card-body">
+        <h5 class="card-title">Contact Me</h5>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
           </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message" required></textarea>
+          </div>
+          <div class="g-recaptcha" data-sitekey="6LdaY_ApAAAAAI6HbfeEyDZOExfDFiG4U7S9GE43"></div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
