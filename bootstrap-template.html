@@ -102,7 +102,7 @@
       </figcaption>
     </figure>
 
-    <div class="container-sm border my-5">
+    <div class="container-sm border my-4">
       <div class="row">
         <div class="col-sm-6">
           <div class="card mx-auto" style="width: 13rem;">
@@ -114,18 +114,47 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card mx-auto" style="width: 13rem;">
-          <img src="" class="card-img-top" alt="Specific Image" id="specificImage">
-          <div class="card-body">
-            <h5 class="card-title">Curriculum</h5>
-            <p class="card-text">Visita il mio curriculum</p>
-            <a href="pdf/CV_sito.pdf" target="_blank" class="btn btn-primary" id="cardButton2">Go to Site</a>
+        <div class="col-sm-6">
+          <div class="card mx-auto" style="width: 13rem;">
+            <img src="" class="card-img-top" alt="Specific Image" id="specificImage">
+            <div class="card-body">
+              <h5 class="card-title">Curriculum</h5>
+              <p class="card-text">Visita il mio curriculum</p>
+              <a href="pdf/CV_sito.pdf" class="btn btn-primary" id="cardButton2">Go to Site</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+
+    <!-- Modale -->
+  <div class="modal fade" id="documentModal" tabindex="-1" aria-labelledby="documentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="documentModalLabel">Elenco Documenti</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="documento1.pdf" target="_blank">Documento 1</a></li>
+            <li class="list-group-item"><a href="documento2.pdf" target="_blank">Documento 2</a></li>
+            <li class="list-group-item"><a href="documento3.pdf" target="_blank">Documento 3</a></li>
+            <!-- Aggiungi più link per altri documenti qui -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 
     <script>
       $(document).ready(function() {
