@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial;
+    text-align: left;
+}
+
+.go-back {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    text-decoration: none;
+    color: black
+}                     
+
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    line-height: 20px;
+    margin-bottom: 27px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+
+.page-title {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(166, 22, 22);
+    margin-bottom: 11px;
+}
+
+.page-description {
+    line-height: 22px;
+    background-color: rgb(199, 240, 137);
+    margin-bottom: 30px;
+}
+
+ul {
+    background-color: rgb(205, 172, 235);
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(80, 79, 79);
+    cursor: pointer;
+    transition: color 0,15s;
+    background-color: rgb(157, 157, 241);
+    margin-bottom: 10px;
+}
+
+.film-title:hover {
+    text-decoration: underline;
+}
+
+.film-title:active {
+    color: rgb(187, 184, 184);
+}
+
+.film-description {
+    line-height: 22px;
+    background-color: rgb(250, 203, 143);
+    margin-bottom: 30px;
+}
+
+article > p:last-of-type {
+    margin-bottom: 200px;
+}
+
+img {
+    height: 340px;
+}
+
+.footer {
+    display: flex;
+}
+  
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one {
+    text-align: center;
+    display: flex;
+    flex: 0.21;
+    flex-direction: column;
+    justify-content: space-around;
+}
+       
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+
