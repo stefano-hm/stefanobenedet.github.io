@@ -1,133 +1,227 @@
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 
-body {
-    font-family: Arial;
-    text-align: left;
-}
-
-.go-back {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    text-decoration: none;
-    color: black
-}                     
-
-header {
-    text-align: center;
-    background-color: antiquewhite;
-    line-height: 20px;
-    margin-bottom: 27px;
-    padding: 20px;
-    border-bottom: 1px solid rgb(8, 8, 8);
-}
-
-.page-title {
-    font-size: 27px;
-    font-weight: bold;
-    color: rgb(166, 22, 22);
-    margin-bottom: 11px;
-}
-
-.page-description {
-    line-height: 22px;
-    background-color: rgb(199, 240, 137);
-    margin-bottom: 30px;
-}
-
-ul {
-    background-color: rgb(205, 172, 235);
-    margin-top: 0;
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-.article {
+.page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 100%;
+    height: 470px;
     display: flex;
     justify-content: center;
-}
-
-article {
-    width: 650px;
+    align-items: center;
+    position: relative;
+  }
+  .menu {
     display: flex;
-    flex-direction: column;
-}
-
-.film-title {
-    font-size: 23px;
-    font-weight: bold;
-    color: rgb(80, 79, 79);
-    cursor: pointer;
-    transition: color 0,15s;
-    background-color: rgb(157, 157, 241);
-    margin-bottom: 10px;
-}
-
-.film-title:hover {
-    text-decoration: underline;
-}
-
-.film-title:active {
-    color: rgb(187, 184, 184);
-}
-
-.film-description {
-    line-height: 22px;
-    background-color: rgb(250, 203, 143);
-    margin-bottom: 30px;
-}
-
-article > p:last-of-type {
-    margin-bottom: 200px;
-}
-
-img {
-    height: 340px;
-}
-
-.footer {
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
     display: flex;
-}
-  
-.footer-item {
-    border: 1px solid #fff;
-    background-color: #D6E9FE;
-    height: 200px;
-    flex: 1;
-}
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+  }
 
-.footer-one {
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    white-space: nowrap; /* Impedisce la rottura delle parole */
+  }
+
+   .header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/sfondo_header.jpg");
+    background-size: cover; /* Assicura che l'immagine copra l'intera area */
+    background-position: center; /* Centra l'immagine */
+  }
+   
+   .description-header {
+    position: relative;
+    z-index: 1; /* Assicura che il testo sia sopra l'immagine */
     text-align: center;
-    display: flex;
-    flex: 0.21;
-    flex-direction: column;
-    justify-content: space-around;
-}
-       
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding e bordi nella larghezza e nell'altezza */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo nero trasparente per migliorare leggibilità */
+   }
 
+   .call-to-action {
+    background-color: #c5c5dd;
+    height: 80px;
+   }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-      background-color: #F09A9D; /* Red */
-    }
+   .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
   }
   
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
-      background-color: #F5CF8E; /* Yellow */
-    }
+  .cta-button:hover {
+    background-color: #cc5200;
   }
+  
+  .content {
+    background-color: #EAEDF0;
+    height: 600px;
+  }
+  
+  .sign-up {
+    flex-direction: column;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #sign-up h2 {
+    margin-bottom: 8px;
+  }
+  
+  #sign-up form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #sign-up label {
+    display: block;
+    margin-bottom: 7px;
+  }
+  
+  #sign-up input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+
+  #sign-up button {
+    padding: 6px 16px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #sign-up button:hover {
+    background-color: #cc5200;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    flex-direction: column;
+    background-color: #F5CF8E;
+    justify-content: start;
+  }
+
+  .feature-1 h3,
+  .feature-2 h3,
+  .feature-3 h3 {
+    font-size: 1.35em;
+    color: #333;
+    align-self: start;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 0.9em;
+    color: #666;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        justify-content: space-around; /* Distribuisce gli elementi in modo uniforme */
+    }
+
+    .navbar li {
+        margin-right: 10px; /* Riduce lo spazio tra gli elementi */
+    }
+
+    .navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14.75px; /* Riduce la dimensione del testo */
+    }
+
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        height: 220px;
+    }
+}
+
+  /* Tablet Styles */        
+@media only screen and (min-width: 501px) and (max-width: 960px) {   
+    .navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }
+  }    /**modifica a 401
   
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
-    body {
-      background-color: #B2D6FF; /* Blue */
-    }
+    .page {
+        width: 960px;
+        margin: 0 auto;
+      }
+      .feature-1,
+      .feature-2,
+      .feature-3 {
+        width: 33.3%;
+      }
+      .sign-up {
+        order: 1;
+      }
+      .content {
+        order: 2;
+      }
   }
 
