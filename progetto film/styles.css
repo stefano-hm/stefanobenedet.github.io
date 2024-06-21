@@ -83,8 +83,9 @@ body {
    }
 
    .call-to-action {
-    background-color: #c5c5dd;
-    height: 80px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
    }
 
    .cta-button {
@@ -102,7 +103,6 @@ body {
   }
   
   .content {
-    background-color: #EAEDF0;
     flex-direction: column;
     width: 100%;
     padding: 16px;
@@ -157,7 +157,6 @@ body {
   
   .sign-up {
     flex-direction: column;
-    background-color: #f4f4f4;
     text-align: center;
   }
   
@@ -204,7 +203,6 @@ body {
   .feature-2,
   .feature-3 {
     flex-direction: column;
-    background-color: #F5CF8E;
     justify-content: start;
   }
 
@@ -212,7 +210,7 @@ body {
   .feature-2 h3,
   .feature-3 h3 {
     font-size: 1.35em;
-    color: #333;
+    font-style: italic;
     align-self: start;
     padding: 20px;
     margin-bottom: 0px;
@@ -222,6 +220,7 @@ body {
   .feature-2 p,
   .feature-3 p {
     font-size: 0.9em;
+    font-style: italic;
     color: #666;
     padding-left: 20px;
     padding-right: 20px;
@@ -265,6 +264,16 @@ body {
     .feature-3 {
       width: 50%;
     }
+
+    .feature-1 {
+      justify-content: end;
+    }
+
+    .feature-2,
+    .feature-3 {
+      height: auto;
+      margin-bottom: 12px;
+    }
   }    /**modifica a 401
   
   /* Desktop Styles */
@@ -277,9 +286,12 @@ body {
       .feature-2,
       .feature-3 {
         width: 33.3%;
+        height: auto;
+        margin-bottom: 30px;       
       }
       .sign-up {
         order: 1;
+        margin-bottom: 30px;
       }
       .content {
         order: 2;
