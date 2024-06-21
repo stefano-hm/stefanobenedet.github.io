@@ -1,0 +1,71 @@
+@media screen and (max-width: 500px) {
+    .navbar {
+        justify-content: space-around; /* Distribuisce gli elementi in modo uniforme */
+    }
+
+    .navbar li {
+        margin-right: 10px; /* Riduce lo spazio tra gli elementi */
+    }
+
+    .navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14.75px; /* Riduce la dimensione del testo */
+    }
+
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        height: 220px;
+    }
+}
+
+  /* Tablet Styles */        
+@media only screen and (min-width: 501px) and (max-width: 960px) {   
+    .navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }
+
+    .feature-1 {
+      justify-content: end;
+    }
+
+    .feature-2,
+    .feature-3 {
+      height: auto;
+      margin-bottom: 12px;
+    }
+  }    /**modifica a 401
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+      }
+      .feature-1,
+      .feature-2,
+      .feature-3 {
+        width: 33.3%;
+        height: auto;
+        margin-bottom: 30px;       
+      }
+      .sign-up {
+        order: 1;
+        margin-bottom: 30px;
+      }
+      .content {
+        order: 2;
+      }
+      .film-card:last-of-type {
+        margin-bottom: 5px;
+      }
+  }

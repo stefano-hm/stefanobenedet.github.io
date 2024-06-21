@@ -1,0 +1,27 @@
+.feature-1,
+  .feature-2,
+  .feature-3 {
+    flex-direction: column;
+    justify-content: start;
+    text-align: justify;
+  }
+
+  .feature-1 h3,
+  .feature-2 h3,
+  .feature-3 h3 {
+    font-size: 1.35em;
+    font-style: italic;
+    align-self: start;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

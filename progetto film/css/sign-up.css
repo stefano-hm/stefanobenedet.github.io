@@ -1,0 +1,43 @@
+.sign-up {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #sign-up h2 {
+    margin-bottom: 8px;
+  }
+  
+  #sign-up form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #sign-up label {
+    display: block;
+    margin-bottom: 7px;
+  }
+  
+  #sign-up input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+
+  #sign-up button {
+    padding: 6px 16px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #sign-up button:hover {
+    background-color: #cc5200;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }

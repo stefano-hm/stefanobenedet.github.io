@@ -1,0 +1,53 @@
+.content {
+    flex-direction: column;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  .film-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 55px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.film-card img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.film-card h3 {
+    margin-top: 0;
+}
+.film-card p {
+    margin: 4px 0;
+    text-align: justify;
+}
+.film-card a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+.film-card .plot{
+  margin-top: 19.5px;
+}
+.film-card .complete-plot {
+  margin: 12px 0;
+}
+.film-card .review{
+  margin-top: 19.5px;
+}
+.film-card .complete-review {
+  margin: 12px 0;
+}
