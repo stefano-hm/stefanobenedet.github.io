@@ -113,7 +113,7 @@ body {
   .film-card {
     border: 1px solid #ddd;
     padding: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 55px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -295,6 +295,9 @@ body {
       }
       .content {
         order: 2;
+      }
+      .film-card:last-of-type {
+        margin-bottom: 5px;
       }
   }
 
