@@ -73,7 +73,7 @@ body {
    .description-header {
     position: relative;
     z-index: 2; /* Assicura che il testo sia sopra l'immagine */
-    text-align: center;
+    text-align: justify;
     color: white;
     padding: 20px;
     box-sizing: border-box; /* Include padding e bordi nella larghezza e nell'altezza */
@@ -132,6 +132,7 @@ body {
 }
 .film-card p {
     margin: 4px 0;
+    text-align: justify;
 }
 .film-card a {
     display: inline-block;
@@ -204,6 +205,7 @@ body {
   .feature-3 {
     flex-direction: column;
     justify-content: start;
+    text-align: justify;
   }
 
   .feature-1 h3,
