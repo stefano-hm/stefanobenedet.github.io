@@ -20,6 +20,17 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <style>
+      body {
+            background: url("images/sfondo.avif") no-repeat center center fixed;
+            background-size: cover;
+            color: black; /* Per assicurare la leggibilità del testo */
+        }
+      .img-border {
+          border: 3px solid black; /* Puoi cambiare colore e spessore della cornice */
+      }
+  </style>
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,7 +48,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="progetto film/blog.html">Blog</a>
+              <a class="nav-link" href="progetto film/blog.html" target="_blank">Blog</a>
             </li>
           </ul>
 
@@ -68,10 +79,10 @@
     </div>
   </nav>
 
-  <div class="container-sm border my-4">
+  <div class="container-sm my-4">
     <div class="row">
       <div class="col-sm-4 gx-0">
-        <img src="IMG_9757.jpg" class="d-block mx-auto" style="width: 9rem;">
+        <img src="IMG_9757.jpg" class="d-block mx-auto rounded img-border" style="width: 9rem;">
       </div>
       <div class="col-sm-8" id="description-column">
         <p>Sono un ragazzo di 25 anni appassionato di cinema e cunina, ho giocato a calcio per tanti anni
@@ -107,7 +118,7 @@
       </figcaption>
     </figure>
 
-    <div class="container-sm border my-4">
+    <div class="container-sm my-4">
       <div class="row">
         <div class="col-sm-6">
           <div class="card mx-auto" style="width: 13rem;">
@@ -186,25 +197,23 @@
       });
   </script>
 
-  <div class="container-sm border my-5">
-    <div style="width: 30%">
-      <div class="row">
-        <p>SKILL</p>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="images/skills/html_logo.png" alt="Logo" width="55" height="55" >
+  <div class="container mt-5 text-center">
+    <h1>Skill</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/skills/html_logo.png" class="img-fluid" alt="HTML" width="55px" height="55px">
+            <p>HTML</p>
         </div>
-        <div class="col-sm-6">
-          <img src="images/skills/css_logo.png" alt="Logo" width="56" height="56" >
-        </div> 
-      </div>
+        <div class="col-md-6">
+            <img src="images/skills/css_logo.png" class="img-fluid" alt="CSS" width="56px" height="56px">
+            <p>CSS</p>
+        </div>
     </div>
   </div>
 
   <div class="container mt-5">
     <!-- Modulo di contatto -->
-    <div class="card" style="width: 100%;">
+    <div class="card" style="width: 600px;">
       <div class="card-body">
         <h5 class="card-title">Contact Me</h5>
         <form id="contactForm">
