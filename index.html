@@ -36,7 +36,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
     <a class="navbar-brand ms-3" href="#">
-      <img src="images/sb.png" alt="Logo" width="34" height="28" class="d-inline-block align-text-top me-2 rounded">
+      <img src="assets/images/sb.png" alt="Logo" width="34" height="28" class="d-inline-block align-text-top me-2 rounded">
     </a>
         <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -82,7 +82,7 @@
   <div class="container-sm my-4">
     <div class="row">
       <div class="col-sm-4 gx-0">
-        <img src="images/IMG_9757.jpg" class="d-block mx-auto rounded img-border" style="width: 9rem;">
+        <img src="assets/images/IMG_9757.jpg" class="d-block mx-auto rounded img-border" style="width: 9rem;">
       </div>
       <div class="col-sm-8" id="description-column">
         <p>Sono un ragazzo di 25 anni appassionato di cinema e cunina, ho giocato a calcio per tanti anni
@@ -136,7 +136,7 @@
             <div class="card-body">
               <h5 class="card-title">Curriculum</h5>
               <p class="card-text">Visita il mio curriculum</p>
-              <a href="pdf/CV_sito.pdf" target="_blank" class="btn btn-primary" id="cardButton2">Visualizza</a>
+              <a href="assets/pdf/CV_sito.pdf" target="_blank" class="btn btn-primary" id="cardButton2">Visualizza</a>
             </div>
           </div>
         </div>
@@ -156,8 +156,8 @@
         </div>
         <div class="modal-body">
           <ul class="list-group">
-            <li class="list-group-item"><a href="pdf/progetto_blockchain.pdf" target="_blank">Progetto Blockchain</a></li>
-            <li class="list-group-item"><a href="pdf/progetto_ethereum.pdf" target="_blank">Progetto Ethereum</a></li>
+            <li class="list-group-item"><a href="assets/pdf/progetto_blockchain.pdf" target="_blank">Progetto Blockchain</a></li>
+            <li class="list-group-item"><a href="assets/pdf/progetto_ethereum.pdf" target="_blank">Progetto Ethereum</a></li>
           </ul>
         </div>
       </div>
@@ -174,10 +174,10 @@
       $(document).ready(function() {
           // Array di percorsi relativi delle immagini
           var images = [
-              'images/cards/immagine1.png',
-              'images/cards/immagine2.png',
-              'images/cards/immagine3.png',
-              'images/cards/immagine4.png'
+              'assets/images/cards/immagine1.png',
+              'assets/images/cards/immagine2.png',
+              'assets/images/cards/immagine3.png',
+              'assets/images/cards/immagine4.png'
           ];
 
           // Seleziona un'immagine casuale dall'array
@@ -187,7 +187,7 @@
           $('#randomImage').attr('src', randomImage);
 
           // Percorso dell'immagine specifica per la seconda card
-          var specificImage = 'images/cards/immagineCV.png';
+          var specificImage = 'assets/images/cards/immagineCV.png';
 
           // Imposta l'immagine nella seconda card
           $('#specificImage').attr('src', specificImage);
@@ -201,11 +201,11 @@
     <h1>Skill</h1>
     <div class="row">
         <div class="col-md-6">
-            <img src="images/skills/html_logo.png" class="img-fluid" alt="HTML" width="55px" height="55px">
+            <img src="assets/images/skills/html_logo.png" class="img-fluid" alt="HTML" width="55px" height="55px">
             <p>HTML</p>
         </div>
         <div class="col-md-6">
-            <img src="images/skills/css_logo.png" class="img-fluid" alt="CSS" width="56px" height="56px">
+            <img src="assets/images/skills/css_logo.png" class="img-fluid" alt="CSS" width="56px" height="56px">
             <p>CSS</p>
         </div>
     </div>
