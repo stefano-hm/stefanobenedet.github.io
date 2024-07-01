@@ -1,6 +1,6 @@
 
 body {
-    background: url("images/sfondo.avif") no-repeat center center fixed;
+    background: url("../images/sfondo.avif") no-repeat center center fixed;
     background-size: cover;
     color: black; /* Per assicurare la leggibilità del testo */
 }
