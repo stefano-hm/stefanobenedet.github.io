@@ -1,0 +1,9 @@
+
+body {
+    background: url("assets/images/sfondo.avif") no-repeat center center fixed;
+    background-size: cover;
+    color: black; /* Per assicurare la leggibilità del testo */
+}
+.img-border {
+    border: 3px solid black; /* Puoi cambiare colore e spessore della cornice */
+}
