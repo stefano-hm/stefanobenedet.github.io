@@ -60,11 +60,3 @@ section ul li p {
     color: #666;
 }
 
-a {
-    color: #009688;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
