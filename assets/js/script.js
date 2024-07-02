@@ -35,8 +35,6 @@ $(document).ready(function() {
     // Imposta l'immagine nella seconda card
     $('#specificImage').attr('src', specificImage);
 
-    // Imposta l'URL del pulsante della seconda card
-    $('#cardButton2').attr('href', 'https://www.example.com');
 });
 
 
