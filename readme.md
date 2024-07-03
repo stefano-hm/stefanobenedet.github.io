@@ -24,8 +24,29 @@
         - `/progetto_blockchain.pdf`
         - `/progetto_ethereum.pdf`
 - `/curriculum`: Cartella contenente la pagina web del mio curriculum che si apre cliccando il pulsande della card.
+    - `/index.html`: Struttura della pagina web curriculum.
     - `/assets`: Risorse della pagina come file css.
-
-    
+        - `/css`: File styles.css con stili della pagina.
+            - `/styles.css`
+- `/progetto film`: Cartella contenente la pagina web del mio blog dedicato al cinema.
+    - `/index.html`: Struttura della pagina web blog.
+    - `/assets`: Risorse del progetto come immagini e CSS.
+        - `/css`: Files css divisi per sezione con stili della pagina.
+            - `/styles.css`: Stili generali pagina.
+            - `/content.css`: Stili per la sezione content.
+            - `/cta.css`: Stili per la sezione cta.
+            - `/features.css`: Stili per la sezione features.
+            - `/header.css`: Stili per la sezione header.
+            - `/menu.css`: Stili per la sezione menu.
+            - `/sign-up.css`: Stili per la sezione sign-up.
+            - `/media-queries.css`: Stili per la responsività della pagina.
+        - `/images`: Immagini usate per la pagina web.
+            - `/img1-HolyMotors.webp`
+            - `/img2-HugoCabret.webp`
+            - `/img3-PorcoRosso.webp`
+            - `/img4-LostInTranslation.webp`
+            - `/img5-IlCorvo.webp`
+            - `/sfondo_header.jpg`
+        
 
         
