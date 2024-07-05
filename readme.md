@@ -111,4 +111,55 @@ La prima card nella pagina ha una funzionalità aggiuntiva che apre una finestra
 
 ## Conclusioni
 
-Questo progetto combina diverse tecnologie per creare un modulo di contatto sicuro e funzionale. Le scelte stilistiche e di codice sono state fatte per garantire una buona esperienza utente, sicurezza e facilità di manutenzione. La navbar e le cards migliorano l'organizzazione e l'estetica del contenuto della pagina, rendendola più user-friendly e visivamente accattivante. La funzionalità della finestra modale per la prima card aggiunge un livello di interattività e accesso rapido a risorse aggiuntive. Se hai ulteriori domande o suggerimenti, sentiti libero di contattarmi.
+Questo progetto combina diverse tecnologie per creare un modulo di contatto sicuro e funzionale. Le scelte stilistiche e di codice sono state fatte per garantire una buona esperienza utente, sicurezza e facilità di manutenzione. La navbar e le cards migliorano l'organizzazione e l'estetica del contenuto della pagina, rendendola più user-friendly e visivamente accattivante. La funzionalità della finestra modale per la prima card aggiunge un livello di interattività e accesso rapido a risorse aggiuntive. Se hai domande specifiche su qualsiasi parte del codice o desideri ulteriori chiarimenti, non esitare a contattarmi.
+
+
+# Curriculum Vitae di Stefano Benedet
+
+Questo progetto contiene il mio curriculum vitae, implementato utilizzando HTML e CSS. Di seguito sono spiegate le scelte di progettazione, gli stili applicati e le decisioni di codifica.
+
+## FILE HTML (`index.html`)
+
+Il file HTML `index.html` è strutturato per rappresentare in modo chiaro e ordinato le informazioni del curriculum vitae. 
+
+## `<header>`
+
+Il `<header>` contiene il titolo principale del curriculum vitae. Viene utilizzato il tag `<h1>` per il nome del candidato per enfatizzare l'importanza dell'intestazione. Il testo viene centrato usando `text-align: center` nel CSS per garantire una presentazione pulita e professionale.
+
+### Sezioni di `<section>`
+
+Le sezioni `<section>` del curriculum vitae sono organizzate in base alle varie informazioni:
+
+- **Education**: Titoli di studio.
+- **Experience**: Elenco delle mie esperienze lavorative.
+- **Skills**: Competenze.
+- **Languages**: Lingue conosciute.
+
+Ho utilizzato `<h2>` per i titoli delle sezioni per una gerarchia chiara e `ul` e `li` per elencare dettagliatamente le informazioni. Le classi sono utilizzate principalmente per scopi di stile CSS.
+
+## CSS (`assets/css/styles.css`)
+
+Il file CSS `styles.css` è responsabile della presentazione visiva del curriculum vitae. Ecco una panoramica delle scelte stilistiche e delle classi utilizzate:
+
+## Body e Container
+
+Viene impostato il font-family su 'Arial' con fallback a sans-serif per garantire la leggibilità su diverse piattaforme. Viene utilizzato un line-height di 1.6 per migliorare la leggibilità del testo. Il background-color è impostato su #f4f4f4 per uno sfondo leggermente grigio, creando un contrasto con il contenuto bianco all'interno del `.container`.
+
+## Header
+
+Il `<header>` ha un testo centrato con un padding inferiore per separare il titolo principale dal contenuto seguente. Ho utilizzato `border-bottom: 1px solid #ccc` per aggiungere una sottile linea grigia sotto l'intestazione per una separazione visiva chiara.
+
+## Sezioni `<section>`
+
+Le sezioni `<section>` hanno un margine verticale per separare visivamente ciascuna sezione. Viene utilizzato `<h2>` per i titoli delle sezioni per enfatizzare la gerarchia delle informazioni. Il testo è in grassetto (`font-weight: bold`) e di colore grigio scuro (`#333`) per una buona leggibilità.
+
+### Liste `<ul>` e `<li>`
+
+Le liste `<ul>` e `<li>` non hanno stili di elenco predefiniti (`list-style: none`) per un aspetto più pulito e moderno.  L'aggiunta di margini inferiori ai `<li>` separa ogni elemento elencato.
+
+## Conclusioni
+
+Questo progetto del curriculum vitae è stato progettato per fornire un layout chiaro e professionale delle mie esperienze educative, lavorative, competenze linguistiche e altre informazioni pertinenti. Il design utilizza HTML per la struttura semantica e CSS per la presentazione visiva, mirando a una lettura facile e una navigazione intuitiva. L'uso di classi e stili CSS è stato orientato a migliorare la leggibilità, mantenendo al contempo un aspetto pulito e moderno.
+Se hai domande specifiche su qualsiasi parte del codice o desideri ulteriori chiarimenti, non esitare a contattarmi.
+
+
