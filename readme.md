@@ -126,7 +126,7 @@ Il file HTML `index.html` è strutturato per rappresentare in modo chiaro e ordi
 
 Il `<header>` contiene il titolo principale del curriculum vitae. Viene utilizzato il tag `<h1>` per il nome del candidato per enfatizzare l'importanza dell'intestazione. Il testo viene centrato usando `text-align: center` nel CSS per garantire una presentazione pulita e professionale.
 
-### Sezioni di `<section>`
+## Sezioni di `<section>`
 
 Le sezioni `<section>` del curriculum vitae sono organizzate in base alle varie informazioni:
 
@@ -153,7 +153,7 @@ Il `<header>` ha un testo centrato con un padding inferiore per separare il tito
 
 Le sezioni `<section>` hanno un margine verticale per separare visivamente ciascuna sezione. Viene utilizzato `<h2>` per i titoli delle sezioni per enfatizzare la gerarchia delle informazioni. Il testo è in grassetto (`font-weight: bold`) e di colore grigio scuro (`#333`) per una buona leggibilità.
 
-### Liste `<ul>` e `<li>`
+## Liste `<ul>` e `<li>`
 
 Le liste `<ul>` e `<li>` non hanno stili di elenco predefiniti (`list-style: none`) per un aspetto più pulito e moderno.  L'aggiunta di margini inferiori ai `<li>` separa ogni elemento elencato.
 
