@@ -18,9 +18,10 @@
   }
 
   .navbar li {
-    display: inline;
     margin-right: 20px;
     margin-left: 20px;
+    display: inline;
+    
   }
 
   .navbar a {
