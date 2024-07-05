@@ -1,0 +1,35 @@
+body {
+    background: url("../images/sfondo.avif") no-repeat center center fixed;
+    background-size: cover;
+    color: black; 
+}
+
+.img-border {
+    border: 3px solid black; 
+}
+
+.navbar-brand img {
+    width: 34px; 
+    height: 28px; 
+}
+
+.navbar-nav .nav-link svg {
+    width: 16px; 
+    height: 16px; 
+}
+
+.image-size {
+    width: 9rem; 
+}
+.card-size {
+    width: 13rem; 
+}
+
+.html-logo,
+.css-logo {
+    width: 55px; 
+    height: 55px; 
+}
+.contact {
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.back-link {
+  text-align: center; 
+  margin: 15px;
+}
+
+.back-link a {
+  color: #666; 
+  text-decoration: none; 
+  transition: color 0.3s; /* Transizione per il cambio colore al passaggio del mouse */
+}
+
+.back-link a:hover {
+  color: #a5a3a3; /* Cambio colore al passaggio del mouse */
+}
+
+.back-link a span {
+  font-size: 1.2em;
+  margin-left: 5px; /* Aggiunge spazio tra il testo e la freccia */
+}
